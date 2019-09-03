@@ -1,7 +1,7 @@
 ---
-title: 👋Hello World a la Gatsby
+title: 🥛CI/CD Milk Kefir
 date: "2015-05-01T22:12:03.284Z"
-description: "How Gatsby saved the world"
+description: "Constant flow of yogurt everyday"
 ---
 
 <div class="content">

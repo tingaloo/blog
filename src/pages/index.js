@@ -1,7 +1,9 @@
 import React from "react"
 import { Link, graphql } from "gatsby"
+import "./mystyles.scss"
 
 import Bio from "../components/bio"
+import RecruiterBlob from "../components/recruiterBlob"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import { rhythm } from "../utils/typography"
@@ -15,33 +17,48 @@ class BlogIndex extends React.Component {
     return (
       <Layout location={this.props.location} title={siteTitle}>
         <SEO title="All posts" />
-        <Bio />
-        {posts.map(({ node }) => {
-          const title = node.frontmatter.title || node.fields.slug
-          return (
-            <article key={node.fields.slug}>
-              <header>
-                <h3
-                  style={{
-                    marginBottom: rhythm(1 / 4),
-                  }}
-                >
-                  <Link style={{ boxShadow: `none` }} to={node.fields.slug}>
-                    {title}
-                  </Link>
-                </h3>
-                <small>{node.frontmatter.date}</small>
-              </header>
-              <section>
-                <p
-                  dangerouslySetInnerHTML={{
-                    __html: node.frontmatter.description || node.excerpt,
-                  }}
-                />
+        {/* <Bio /> */}
+        {/* <RecruiterBlob /> */}
+        <div className="container">
+          <div class="columns">
+            <div class="column">
+              <h1 className="is-size-1" has-text-grey-darker>Hi!</h1>
+              <h1 className="is-size-2">I'm Ting, and you've reached my page</h1>
+              <h3 className="is-size-4">
+                I started this blog...to remind myself how
+                to to do things like
+              </h3>
+
+              <section class="section">
+                {posts.map(({ node }) => {
+                  const title = node.frontmatter.title || node.fields.slug
+                  return (
+                    <div class="columns">
+                      <div class="column is-full">
+                        <article key={node.fields.slug}>
+                          <header>
+                            <h3 className="is-size-5
+                            has-text-weight-semibold
+                            has-text-grey-lighter	">
+                              <Link
+                                style={{ boxShadow: `none` }}
+                                to={node.fields.slug}
+                                className="has-text-grey"
+                              >
+                                {title}
+                              </Link>
+                            </h3>
+                          </header>
+                          <section></section>
+                        </article>
+                      </div>
+                    </div>
+                  )
+                })}
               </section>
-            </article>
-          )
-        })}
+            </div>
+          </div>
+        </div>
       </Layout>
     )
   }
