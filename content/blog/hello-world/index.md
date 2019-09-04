@@ -6,13 +6,15 @@ description: "How Gatsby saved the world"
 
 <div class="content">
 
-Once upon a time I tried creating a blog in Jekyll. That didn't go so well, hopefully this works out better.
+Once upon a time I tried creating a blog before entering the programming industry. I used Jekyll and wrote some random posts about what I learned.
 
 This time around I decided to take the path of least resistance.
 
+I did not have strict requirements other than it being as easy as it gets.
+
 Search Terms to google
 ```
-Static Site Generator
+Static Site Generator 2019
 CSS framework 2019
 ```
 
@@ -22,10 +24,8 @@ https://www.gatsbyjs.org/docs/
 https://www.gatsbyjs.org/docs/bulma/
 ```
 
-The Resulting Stack:
-Starter: Gatsby - Static Site Generator
-CSS framework: Bulma
+Not too bad, then take the blog starter template and revamp it to look like a boring webpage.
 
-For something a little pretty, I went around looking for a
-I like this look
+![Starter Pack](./starterPack.png)
+
 </div>

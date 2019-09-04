@@ -6,26 +6,23 @@ description: "Constant flow of yogurt everyday"
 
 <div class="content">
 
-Once upon a time I tried creating a blog in Jekyll. That didn't go so well, hopefully this works out better.
+Milk Kefir is one of those things that just won't die.
+Luckily we can make a strain of yogurt everyday!
 
-This time around I decided to take the path of least resistance.
-
-Search Terms to google
+Ingredients
 ```
-Static Site Generator
-CSS framework 2019
-```
-
-And the links that got me up to speed
-```
-https://www.gatsbyjs.org/docs/
-https://www.gatsbyjs.org/docs/bulma/
+Milk Kefir Grains
+Gallon of Milk
+2x Quart Jar
 ```
 
-The Resulting Stack:
-Starter: Gatsby - Static Site Generator
-CSS framework: Bulma
+I get my grains from the [Kombucha and Culture share](https://www.facebook.com/groups/ProbioticCultures/) Facebook group. It's best to find the grains locally.
 
-For something a little pretty, I went around looking for a
-I like this look
+Once they arrive, immediately dump them in some milk. The first couple batches will probably be off because they are shocked from the transportation and the mail service.
+
+And then we get to feeding!
+
+Consume one quart while the other quart continues to grow.
+Stall MK growth by placing it in the fridge, do this too long and you'll need to refresh them with some fresh milk.
+
 </div>
