@@ -23,10 +23,9 @@ class BlogIndex extends React.Component {
           <div class="columns">
             <div class="column">
               <h1 className="is-size-1" has-text-grey-darker>Hi!</h1>
-              <h1 className="is-size-2">I'm Ting, and you've reached my page</h1>
+              <h1 className="is-size-2">You've reached Ting's Blog</h1>
               <h3 className="is-size-4">
-                I started this blog...to remind myself how
-                to to do things like
+                Please select among the following options
               </h3>
 
               <section class="section">
