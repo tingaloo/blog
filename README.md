@@ -3,13 +3,21 @@
 
 ## TODO
 - [ ] Flesh out existing blog posts 
-- [ ] Take pictures of kombucha and milk kefir
+- [ ] Update Resume
 - [ ] Make front page more pretty.
 - [ ] Post on comparing CSS frameworks
 - [ ] Post on why to not use mouthwash?
 
 
 _Have another more specific idea? You may want to check out our vibrant collection of [official and community-created starters](https://www.gatsbyjs.org/docs/gatsby-starters/)._
+
+## To update resume
+```
+cd src/resume
+relaxed resume.pug
+atom . # use atom for live reload
+```
+
 
 ## 🚀 Quick start
 
