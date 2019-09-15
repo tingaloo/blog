@@ -4,25 +4,35 @@ date: "2015-05-01T22:12:03.284Z"
 description: "Constant flow of yogurt everyday"
 ---
 
+<div style=color:blue>fdffsdf</div>
 <div class="content">
 
-Milk Kefir is one of those things that just won't die.
+## Background?
+
+We need to eat, and we need to stay healthy. Why not automate the production of a healthy snack?
+
+
+## CI/CD What?
+
+Milk Kefir is an easy yogurt to make in the office. It can be tangy, sugarfree, and grow erratically. It sits quietly on the counter and needs feeding once in a while.
+
 Luckily we can make a strain of yogurt everyday!
 
 Ingredients
 ```
-Milk Kefir Grains
+Milk Kefir
 Gallon of Milk
-2x Quart Jar
+4x Quart Jar
 ```
 
-I get my grains from the [Kombucha and Culture share](https://www.facebook.com/groups/ProbioticCultures/) Facebook group. It's best to find the grains locally.
+## CI / CD Pipeline
 
-Once they arrive, immediately dump them in some milk. The first couple batches will probably be off because they are shocked from the transportation and the mail service.
+Requirements:
+1. The milk kefir can be consumed at any given moment.
+2. The milk kefir will survive in the fridge over the weekend.
 
-And then we get to feeding!
 
-Consume one quart while the other quart continues to grow.
-Stall MK growth by placing it in the fridge, do this too long and you'll need to refresh them with some fresh milk.
+
+
 
 </div>

@@ -1,31 +1,31 @@
 ---
-title: 👋Hello World a la Gatsby
-date: "2015-05-01T22:12:03.284Z"
-description: "How Gatsby saved the world"
+title: 👋Hello World
+date: "2019-05-01T22:12:03.284Z"
+description: "Hi, my name is Ting. I got this crazy idea, I invite you to read my first blog post!"
 ---
 
 <div class="content">
 
-Once upon a time I tried creating a blog before entering the programming industry. I used Jekyll and wrote some random posts about what I learned.
+I know, I know, I am as excited as you guys. My guest list was apparently the whole world and Matty M. And I'm 99.9999999% sure that only .00000001% will even bother showing up. That .00000001% may or may not contain Matty M.
 
-This time around I decided to take the path of least resistance.
+## Question: Will Matty M show up?
 
-I did not have strict requirements other than it being as easy as it gets.
+He probably will. after all I promised to attend his book signing INSERT LINK. I was inspired to write this blog when he announced he was(is) in process of writing his book. You heard it here first, a nonfiction novel based on healthcare and artifical intelligence. Well then.
 
-Search Terms to google
-```
-Static Site Generator 2019
-CSS framework 2019
-```
+## Let's give it up for Matty M 👋👋👋👋👋👋
 
-And the links that got me up to speed
-```
-https://www.gatsbyjs.org/docs/
-https://www.gatsbyjs.org/docs/bulma/
-```
+![Starter Pack](./congrats.gif)
 
-Not too bad, then take the blog starter template and revamp it to look like a boring webpage.
+So what's next? Do we keep celebrating? Do I keep hyping Matty M? Is this blog post an advertisement for a book that does not even exist? Am I just a shill and literally writing about nothing? Am I generating pre order interest for Matty M? What are we even doing right now, wasn't this blog supposed to be about me?
 
-![Starter Pack](./starterPack.png)
+## I have no idea.
+
+Maybe this blog will it to the preface of Matty M's book. And I will get a small sliver of recognition that means nothing. That is to be determined. What I do know is that you will have read this post.
+
+
+## 👋👋👋👋👋
+
+
+
 
 </div>

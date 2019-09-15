@@ -32,6 +32,8 @@ const Header = props => (
     <div class="navbar-end">
       <div class="navbar-item">
         <Link to={"/about"}>About</Link>
+        <Link to={"/resume"}>Resume</Link>
+
       </div>
     </div>
   </nav>
