@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `Ting's Blog`,
+    title: `Ting Lew`,
     author: `Ting Lew`,
     description: `A starter blog demonstrating what Gatsby can do.`,
     siteUrl: `https://gatsby-starter-blog-demo.netlify.com/`,
@@ -9,8 +9,8 @@ module.exports = {
     },
   },
   plugins: [
-    `gatsby-plugin-sass`,
     `gatsby-plugin-postcss`,
+    `gatsby-plugin-sass`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
