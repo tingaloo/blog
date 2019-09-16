@@ -12,14 +12,18 @@ class About extends Component {
         {/* <Bio /> */}
         {/* <RecruiterBlob /> */}
         <div className="container">
-          <div class="columns">
-            <div class="column">
-              <h1 className="is-size-1" has-text-grey-darker>About Me!</h1>
-              
+              <h1 className="text-4xl">About Me!</h1>
 
-             
-            </div>
-          </div>
+              <div className="mb-4">
+                I'm Ting Lew, your everyday Javascript developer from Maryland. I do front end work for government contracts
+                and I write front end code for DC Abortion Fund.
+              </div>
+
+              <div>
+                I started this blog to improve my writing, but it more or less became an outlet for my random thoughts. I plan
+                on documentating the lessons learned as I go through life.
+              </div>
+
         </div>
       </Layout>
     )

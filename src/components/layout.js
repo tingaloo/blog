@@ -11,19 +11,15 @@ class Layout extends React.Component {
     return (
       <div
         style={{
-          marginLeft: `${rhythm(7)}`,
-          marginRight: `${rhythm(7)}`,
+          // marginLeft: `${rhythm(7)}`,
+          // marginRight: `${rhythm(7)}`,
           // maxWidth: rhythm(24),
-          padding: `${rhythm(1.5)} ${rhythm(3 / 4)}`,
+          // padding: `${rhythm(1.5)} ${rhythm(3 / 4)}`,
         }}
       >
         <Header title={title}/>
-        <main>{children}</main>
-        <footer>
-          © {new Date().getFullYear()}, Built with
-          {` `}
-          <a href="https://www.gatsbyjs.org">Gatsby</a>
-        </footer>
+        <main className="mx-64">{children}</main>
+
       </div>
     )
   }

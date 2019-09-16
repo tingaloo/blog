@@ -1,7 +1,6 @@
 import React from "react"
 import { Link, graphql } from "gatsby"
-import "./mystyles.scss"
-
+  // 
 import Bio from "../components/bio"
 import RecruiterBlob from "../components/recruiterBlob"
 import Layout from "../components/layout"
@@ -20,29 +19,26 @@ class BlogIndex extends React.Component {
         {/* <Bio /> */}
         {/* <RecruiterBlob /> */}
         <div className="container">
-          <div class="columns">
-            <div class="column">
-              <h1 className="is-size-1" has-text-grey-darker>Hi!</h1>
-              <h1 className="is-size-2">You've reached Ting's Blog</h1>
-              <h3 className="is-size-4">
-                Please select among the following options
+            <div class="mb-4">
+              <h1 className="text-5xl">Hi!</h1>
+              <h1 className="text-4xl">Thanks for stopping by!</h1>
+              <h3 className="text-3xl">
+                Here are some of my thoughts.
               </h3>
-
-              <section class="section">
+              </div>
+              <section class="">
                 {posts.map(({ node }) => {
                   const title = node.frontmatter.title || node.fields.slug
                   return (
-                    <div class="columns">
+                    <div class="flex">
                       <div class="column is-full">
                         <article key={node.fields.slug}>
                           <header>
-                            <h3 className="is-size-5
-                            has-text-weight-semibold
-                            has-text-grey-lighter	">
+                            <h3 className="text-2xl mb-2">
                               <Link
                                 style={{ boxShadow: `none` }}
                                 to={node.fields.slug}
-                                className="has-text-grey"
+                                className="cursor-pointer"
                               >
                                 {title}
                               </Link>
@@ -55,8 +51,6 @@ class BlogIndex extends React.Component {
                   )
                 })}
               </section>
-            </div>
-          </div>
         </div>
       </Layout>
     )
