@@ -1,36 +1,38 @@
 ---
 title: 🥛CI/CD Milk Kefir
 date: "2015-05-01T22:12:03.284Z"
-description: "Constant flow of yogurt everyday"
+description: "I drink a quart of yogurt 2.0 a day"
 ---
-
-<div style=color:blue>fdffsdf</div>
-<div class="content">
 
 ## Background?
 
-We need to eat, and we need to stay healthy. Why not automate the production of a healthy snack?
+Healthy is good. Milk is good. Yogurt comes from milk, which is also good. Milk kefir is just a better strain.
 
 
-## CI/CD What?
+## Why not just buy yogurt? 
 
-Milk Kefir is an easy yogurt to make in the office. It can be tangy, sugarfree, and grow erratically. It sits quietly on the counter and needs feeding once in a while.
+Buying yogurt means we failed to implement a CI/CD pipeline. Buying yogurt means we do not have faith in raising our own yogurt cultures. Buying yogurt means we do not believe in our ability to ferment products.
 
-Luckily we can make a strain of yogurt everyday!
+## Why not just make traditional yogurt?
+
+Traditional yogurt tastes good, but requires heating the milk up to 180F. That requires a stove or microwave, and the assumption is we just cannot afford those expensive appliances. Traditional yogurt needs milk to be scalded. Milk kefir does not need scalding, it will eat that milk. Just like how I will drink a quart of milk kefir.
+
+## I'm sold, where do I start?
 
 Ingredients
 ```
-Milk Kefir
+Milk Kefir (get this online)
 Gallon of Milk
-4x Quart Jar
+2x Quart Jar
 ```
 
-## CI / CD Pipeline
+## I got the ingredients, what now?
 
-Requirements:
-1. The milk kefir can be consumed at any given moment.
-2. The milk kefir will survive in the fridge over the weekend.
+Read this [blog post](https://www.thekitchn.com/how-to-make-milk-kefir-cooking-lessons-from-the-kitchn-202022), tada!
 
+## But you said CI/CD
+
+Ask and shall receive. Here is the design doc.
 
 
 
