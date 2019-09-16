@@ -1,6 +1,6 @@
 import React from "react"
 import { Link, graphql } from "gatsby"
-import "../styles/index.scss"
+// import "../styles/index.scss"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import { rhythm, scale } from "../utils/typography"
@@ -17,9 +17,9 @@ class BlogPostTemplate extends React.Component {
           title={post.frontmatter.title}
           description={post.frontmatter.description || post.excerpt}
         />
-        <article>
+        <article className="markdown">
           <header>
-            <h1 className="has-text-weight-bold is-size-1"
+            <h1 className="font-bold text-5xl"
               style={{
                 marginTop: rhythm(1),
                 marginBottom: 0,
@@ -27,7 +27,7 @@ class BlogPostTemplate extends React.Component {
             >
               {post.frontmatter.title}
             </h1>
-            <h1 className="has-text-weight-bold is-size-4">
+            <h1 className="font-bold text-4xl">
             {post.frontmatter.description}
             </h1>
             <p
